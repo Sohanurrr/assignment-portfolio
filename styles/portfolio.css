@@ -4,7 +4,7 @@
 }
 
 .header {
-    background-image: url(/images/banner/banner2.png);
+    background-image: url(../images/banner/banner2.png);
     /* transform: rotate(-180deg); */
     width: 1600px;
     height: 808px;
@@ -214,6 +214,7 @@ border-radius: 8px;
 .s4-title{
     padding-right: 260px;
     margin-top: 100px;
+
 }
 .lis{
     padding-right: 450px;
