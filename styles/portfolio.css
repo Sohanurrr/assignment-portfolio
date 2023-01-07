@@ -1,46 +1,94 @@
-*{
+* {
     margin: 0;
     font-family: 'Work Sans';
 }
-.header{
+
+.header {
     background-image: url(/images/banner/banner2.png);
     /* transform: rotate(-180deg); */
     width: 1600px;
-height: 808px;
-text-align: right;
-width: 1600px;
-height: 808px;
-background-repeat: no-repeat;
+    height: 808px;
+    text-align: right;
+    width: 1600px;
+    height: 808px;
+    background-repeat: no-repeat;
 
 }
-.header-title{
+
+.header-title {
     color: #151414;
     font-weight: 700;
-font-size: 65px;
-line-height: 76px;
-margin-right: 230px;
-margin-left: 860px;
-padding-top: 230px;
+    font-size: 65px;
+    line-height: 76px;
+    margin-right: 230px;
+    margin-left: 860px;
+    padding-top: 230px;
 
 }
-.header-subtitle{
+
+.header-subtitle {
     color: #444343;
     font-size: 16px;
-line-height: 26px;
-padding-top: 24px;
-margin-right: 230px;
-margin-left:860px ;
+    line-height: 26px;
+    padding-top: 24px;
+    margin-right: 230px;
+    margin-left: 860px;
 
 }
-.btn-primary{
+
+.btn-primary {
     width: 160px;
-height: 64px;
-margin-top: 32px;
-margin-right: 230px;
-margin-left: 860px;
-   
-background: #F15B22;
-color: #FFFFFF;
-border-radius: 5px;
-color: #FFFFFF;
+    height: 64px;
+    margin-top: 32px;
+    margin-right: 230px;
+    margin-left: 860px;
+
+    background: #F15B22;
+    color: #FFFFFF;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+/* section 1 styles */
+.section-one-desc {
+    display: flex;
+}
+
+.image {
+    width: 569px;
+    height: 723.3px;
+
+    margin-top: 132px;
+    /* margin-right: 825px; */
+    margin-left: 205px;
+}
+
+.paragraph {
+    padding-top: 370px;
+    padding-right: 300px;
+    margin-left: 50px;
+}
+
+.p-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+
+}
+
+.p-description {
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-top: 24px;
+    padding-bottom: 16px
+}
+li{
+    list-style: none;
+}
+li:before{
+    content:'\2713' ;
+    color: green;
 }
